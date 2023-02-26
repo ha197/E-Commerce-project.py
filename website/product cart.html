@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Cart</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		
+		.container {
+			margin: auto;
+			width: 50%;
+			padding: 20px;
+			background-color: white;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px 0px #ccc;
+		}
+		
+		h2 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		
+		th, td {
+			text-align: left;
+			padding: 8px;
+			border-bottom: 1px solid #ddd;
+		}
+		
+		tr:hover {
+			background-color: #f5f5f5;
+		}
+		
+		button[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		
+		button[type=submit]:hover {
+			background-color: #45a049;
+		}
+		
+		.total {
+			font-weight: bold;
+			text-align: right;
+			padding: 8px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Product Cart</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Product Name</th>
+					<th>Price</th>
+					<th>Quantity</th>
+					<th>Total</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>LAPTOP V.1</td>
+					<td>₹45,999</td>
+				
+				
+				</tr>
+				<tr class="total">
+					<td colspan="3">Total:</td>
+					<td>₹45,999</td>
+					
+				</tr>
+			</tbody>
+		</table>
+		<a href="ps.html">pay now</a>
+	</div>
+</body>
+</html>
